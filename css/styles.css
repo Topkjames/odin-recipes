@@ -58,6 +58,14 @@ li:hover {
     margin-top: 20px;
 }
 
+#first-pics img {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    border: #f7ac4a 2px solid;
+}
+
 figcaption {
     margin-top: 15px;
     font-style: italic;
