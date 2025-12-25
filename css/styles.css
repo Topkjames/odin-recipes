@@ -67,6 +67,11 @@ li:hover {
     border: #f7ac4a 2px solid;
 }
 
+#first-pics img:hover  {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
 figcaption {
     margin-top: 15px;
     font-style: italic;
@@ -149,6 +154,30 @@ p {
 .img-showcase:hover img {
     transform: translateX(-50%) scale(1.1);
 }
+
+footer {
+    background-color: #000c0f;
+    color: #e6e6e6;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 2px solid #f7ac4a;
+}
+
+.follow {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.follow a {
+    color:#f7ac4a
+}
+
+.follow a:hover {
+    color: #920000;
+    text-decoration: underline;
+}
+
 
 @media screen and (max-width: 600px) {
     .container {
