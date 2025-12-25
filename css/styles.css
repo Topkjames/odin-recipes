@@ -55,11 +55,12 @@ li:hover {
 
 #first-pics {
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0 auto;
+
 }
 
 #first-pics img {
-    width: 400px;
+    width: 300px;
     height: auto;
     margin: auto;
     border-radius: 10px;
