@@ -224,3 +224,33 @@ footer {
         transform: scale(1.05); 
     }
 }
+
+.flex-container {
+    display: flex;
+    background-color: #f7ac4a;
+    padding: 5px;
+    gap: 3px;
+    justify-content: space-around;
+}
+
+
+.item {
+    height: 100px;
+    width: 100px;
+    background-color: #000c0f;
+    border: 2px solid #f7ac4a;
+    float: left;
+}
+
+.white-hr {
+    width: 65%;
+    height: 2px;
+    background-color: #e6e6e6;
+    margin: 30px auto;
+    border: none;
+}
+
+.explore {
+    text-align: center;
+    margin: 20px 0;
+}

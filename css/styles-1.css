@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #011216;
+    color: #e6e6e6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.pro-gallery {
+    margin-top: 60px;
+    padding-bottom: 40px;
+    border-top: 1px solid #333;
+}
+
+.gallery-title {
+    color: #f7ac4a;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.main-display {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 4px; /* Sharp corners feel more professional than round ones */
+    background: #000;
+}
+
+#active-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(1, 18, 22, 0.85);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top-right-radius: 10px;
+}
+
+.step-number {
+    font-size: 2rem;
+    color: #f7ac4a;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.thumb-strip {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.thumb {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.thumb:hover, .thumb.active {
+    opacity: 1;
+    border-color: #f7ac4a;
+}
