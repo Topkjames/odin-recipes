@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --white-color: #ffffff;
+    --primary-color: #1f2937;
+    --secondary-color: #e5e7eb;
+    --button-color: #3b82f6;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--primary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0 5%;
+    height: 50vh;
+}
+
+.landing-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo {
+    flex-grow: 1;
+    font-size: 1rem;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+header a {
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 0.75rem;
+    justify-content: flex-end;
+}
+
+.landing-container p {
+    font-size: 0.80rem;
+}
+
+.bold-one {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.content {
+    flex: 0 0 50%;
+    height: 35vh; 
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+
+.img-container {
+    text-align: center;
+    background-color: #6d747d;
+    height: 22vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content * {
+    margin-bottom: 5px;
+}
+
+.sign-up {
+    background-color: var(--button-color);
+    color: var(--white-color);
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white-color);
+    padding: 20px;
+    height: 40vh;
+}
+
+
+.second-random {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.img-random {
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.img-random p {
+    font-size: 0.65rem;
+    width: 100%;
+    text-align: center;
+}
+
+.for-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 3px solid var(--button-color);
+}
+
+.inspire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30%;
+    height: 40vh;
+    font-style: italic;
+    line-height: 1.75rem;
+}
+
+.author-one {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+    padding-right: 35px;
+    padding-top: 0;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    height: 35vh;
+    display: flex;
+}
+
+.containing {
+    display: flex;
+    height: 100%;
+    gap: 25px;
+    background-color: var(--button-color);
+    height: 40%;
+    padding: 20px 40px;
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.inside {
+    background-color: var(--button-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    padding: 0 5px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 15px 0;
+}
