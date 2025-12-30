@@ -187,7 +187,6 @@ nav {
     background-color: var(--button-color);
     color: var(--white-color);
     border-radius: 10px;
-    width: 90%;
     max-width: 1000px;
     margin: 0 auto;
     padding: 50px 80px;
