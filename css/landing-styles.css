@@ -1,3 +1,7 @@
+Here is your raw CSS for the Odin Project Landing Page, updated to be fluid and responsive without using any media queries.
+
+CSS
+
 * {
     margin: 0;
     padding: 0;
@@ -23,18 +27,18 @@ body {
 header, .hero {
     background-color: var(--dark-color);
     color: var(--white-color);
-    padding: 10px 8%;
+    padding: 20px 0;
 }
 
 .landing-container {
     display: flex;
     justify-content: space-between;
-    background-color: var(--dark-color);
-    color: var(--white-color);
     align-items: center;
-    width: 100%;
+    width: 90%;
     max-width: 1400px;
     margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .landing-container a {
@@ -44,178 +48,179 @@ header, .hero {
 
 .header-logo {
     font-size: 1.7rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 nav {
     display: flex;
     gap: 20px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .content-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 50px 0;
-    gap: 2%;
+    padding: 80px 0;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 1 1 400px;
 }
 
 .hero-title {
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .content p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    color: var(--light-gray);
+    margin-bottom: 15px;
 }
 
 .btn {
     background-color: var(--button-color);
     color: var(--white-color);
     border: none;
-    padding: 5px 10px;
+    padding: 8px 24px;
     font-size: 1rem;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    margin-top: 10px;
+    font-weight: bold;
 }
 
 .image-placeholder {
     background-color: var(--dark-gray);
     color: var(--light-gray);
-    width: 55%;
-    height: 230px;
+    flex: 1 1 400px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
     border-radius: 8px;
-    text-align: center;
 }
 
 .information {
-    max-width: 1400px;
-    margin: 0 auto;
-    background-color: var(--white-color);
+    padding: 60px 0;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    padding: 50px 8%;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .section-title {
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.2rem;
+    font-weight: 800;
     text-align: center;
     margin-bottom: 40px;
 }
 
 .random {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .img-random {
+    flex: 0 1 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 255px;
+    gap: 10px;
+}
+
+.for-img {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    border: 4px solid var(--button-color);
+    border-radius: 15px;
 }
 
 .img-random p {
     text-align: center;
-}
-
-.for-img {
-    width: 250px;
-    height: 250px;
-    border: 3px solid var(--button-color);
-    border-radius: 10px;
+    font-size: 0.95rem;
+    color: var(--dark-gray);
 }
 
 .quote-section {
     background-color: var(--light-gray);
+    padding: 100px 0;
 }
 
 .inspire {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 1400px;
+    width: 90%;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inspire p {
+    font-size: 2rem;
     font-style: italic;
-    font-size: 1.2rem;
-    color: var(--darker-gray);
+    font-weight: 300;
+    color: var(--dark-color);
 }
 
 .author-one {
-    text-align: right;
-    font-weight: 700;
-    padding-right: 35px;
     align-self: flex-end;
-    font-style: normal;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 1.2rem;
 }
 
 .call-to-action {
-    background-color: var(--white-color);
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .containing {
     background-color: var(--button-color);
+    color: var(--white-color);
     border-radius: 10px;
-    min-width: 1200px;
+    width: 90%;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 55px 100px;
+    padding: 50px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .call {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 
 .containing p {
-    font-size: 1.3rem;
-    color: var(--white-color);
-    opacity: 0.9;
+    flex: 1 1 300px;
 }
 
 .inside {
     background-color: var(--button-color);
     color: var(--white-color);
-    border: 1px solid var(--white-color);
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    border-radius: 5px;
+    border: 2px solid var(--white-color);
+    padding: 8px 30px;
+    font-size: 1rem;
+    border-radius: 8px;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: bold;
 }
 
-.footer-container {
+footer {
     background-color: var(--dark-color);
     color: var(--white-color);
+    padding: 30px 0;
     text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
 }
