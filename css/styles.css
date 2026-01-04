@@ -190,7 +190,7 @@ footer {
         gap: 10px;
     }
 
-    li {
+    li, ul a {
         flex: 1 1 40%;
     }
 
